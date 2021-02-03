@@ -1,0 +1,12 @@
+.customButton{
+    background:  var(--activeColor);
+    color:white !important;
+}
+
+.visible{
+    display: block !important;
+}
+
+.notVisible{
+    display: none !important;
+}
