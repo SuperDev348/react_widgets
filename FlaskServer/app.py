@@ -41,7 +41,7 @@ class Middleware:
         
         # tenant=req.headers['tenant']
         tenant = "widgets"
-        environ['logger']=app.logger
+        environ['logger']=app.logger   
 
         tenantDatabaseEngine=getDatabaseEngine(tenant)
         with session_scope(tenantDatabaseEngine) as tenantConn:
